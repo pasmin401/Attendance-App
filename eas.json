@@ -1,13 +1,11 @@
 {
   "cli": {
-    "version": ">= 12.0.0"
+    "version": ">= 5.0.0"
   },
-  {
   "build": {
-    "production": {
-      "environment": "production"
-    }
-  }
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
     },
     "preview": {
       "android": {
